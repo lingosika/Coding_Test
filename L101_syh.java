@@ -13,6 +13,7 @@ class Solution {
         for(int i=0; i<report.length; i++){
             if(report[i].length()>3 || report[i].length()<21)
                 System.Exit();
+            //This code doesn't have to be written, but 'matches' is very useful so I leave as it is.
             if(report[i].matches(".*[A-Z].*")
                System.out.print("[Error] Capital letters are included.");
         }
