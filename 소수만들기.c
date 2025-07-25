@@ -1,13 +1,10 @@
+/******************************************************************************/
+/*  https://www.notion.so/23b7258f60698025ad7ccb3cbcbd1029?source=copy_link   */
+/******************************************************************************/
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
 
-int isPrime(int sum){
-    for(int i=1; i<sum/2;i++){
-        if(sum%i==0) return 0;
-    }
-    return 1;
-}
 // nums_len은 배열 nums의 길이입니다.
 int solution(int nums[], size_t nums_len) {
     int sum=0;
